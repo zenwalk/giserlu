@@ -84,6 +84,7 @@ namespace WindowsServicesContronler
         {
 
             GetServicesStatus();
+            comboBox1.Items.Add("f");
 
             }
 
