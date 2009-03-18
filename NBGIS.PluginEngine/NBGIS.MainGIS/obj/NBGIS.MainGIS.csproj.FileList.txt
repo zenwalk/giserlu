@@ -1,0 +1,14 @@
+bin\Debug\NBGIS.MainGIS.exe
+bin\Debug\NBGIS.MainGIS.pdb
+bin\Debug\Janus.Windows.Common.v3.dll
+bin\Debug\Janus.Windows.Ribbon.v3.dll
+bin\Debug\Janus.Windows.UI.v3.dll
+bin\Debug\Janus.Windows.UI.v3.xml
+bin\Debug\Janus.Windows.Ribbon.v3.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\NBGIS.MainGIS.MainGIS.resources
+obj\Debug\NBGIS.MainGIS.Properties.Resources.resources
+obj\Debug\NBGIS.MainGIS.csproj.GenerateResource.Cache
+obj\Debug\NBGIS.MainGIS.exe.licenses
+obj\Debug\NBGIS.MainGIS.exe
+obj\Debug\NBGIS.MainGIS.pdb
