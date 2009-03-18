@@ -6,7 +6,7 @@ using System.Drawing;
 namespace NBGIS.PluginEngine
 {
     /// <summary>
-    ///  该接口与AO库中的ICommand接口
+    ///  该接口与AO库中的ICommand接口类似
     /// Bitmap属性返回的是Bitmap对象而非资源号
     /// </summary>
    public interface ICommand:NBGIS.PluginEngine.IPlugin

@@ -8,7 +8,7 @@ namespace NBGIS.PluginEngine
     /// <summary>
     /// ITool接口仿AO并混合了AO中的ICommand接口和ITool接口
     /// </summary>
-    interface ITool:NBGIS.PluginEngine.IPlugin
+   public interface ITool:NBGIS.PluginEngine.IPlugin
     {
         /// <summary>
         /// 工具按钮图标

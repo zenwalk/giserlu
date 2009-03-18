@@ -45,7 +45,7 @@ namespace NBGIS.PluginEngine
                    {
                        if (Applog.log.IsErrorEnabled)
                        {
-                           Applog.log.Error("反射类型加载异常");
+                           Applog.log.Error("反射类型加载异常" + ex.Message);
                        }
                    }
                    catch (Exception ex)

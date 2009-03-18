@@ -61,6 +61,7 @@
     <Compile Include="ItemDef.cs" />
     <Compile Include="ITool.cs" />
     <Compile Include="IToolBarDef.cs" />
+    <Compile Include="ParsePluginCollection.cs" />
     <Compile Include="PluginCollection.cs" />
     <Compile Include="PluginCollectionEnumerator.cs" />
     <Compile Include="PluginHandle.cs" />
