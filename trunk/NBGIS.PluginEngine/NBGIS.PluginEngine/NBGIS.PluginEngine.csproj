@@ -66,6 +66,27 @@
     <Compile Include="PluginHandle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Janus.Windows.Common.v3.dll" />
+    <Content Include="bin\Debug\Janus.Windows.Ribbon.v3.dll" />
+    <Content Include="bin\Debug\Janus.Windows.Ribbon.v3.xml" />
+    <Content Include="bin\Debug\Janus.Windows.UI.v3.dll" />
+    <Content Include="bin\Debug\Janus.Windows.UI.v3.xml" />
+    <Content Include="bin\Debug\log4net.dll" />
+    <Content Include="bin\Debug\NBGIS.PluginEngine.dll" />
+    <Content Include="bin\Debug\NBGIS.PluginEngine.pdb" />
+    <Content Include="obj\Debug\NBGIS.PluginEngine.dll" />
+    <Content Include="obj\Debug\NBGIS.PluginEngine.pdb" />
+    <Content Include="obj\NBGIS.PluginEngine.csproj.FileList.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\build.force" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\Refactor\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
