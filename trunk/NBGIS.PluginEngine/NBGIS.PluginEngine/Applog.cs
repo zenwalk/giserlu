@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using log4net;
-
+//¿ªÆôLog4Net¼àÌýÆ÷
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
 namespace NBGIS.PluginEngine
 {
     /// <summary>
