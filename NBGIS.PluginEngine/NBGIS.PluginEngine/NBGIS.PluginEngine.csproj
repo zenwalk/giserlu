@@ -80,6 +80,7 @@
     <Content Include="obj\NBGIS.PluginEngine.csproj.FileList.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="obj\Debug\build.force" />
     <None Include="obj\Debug\ResolveAssemblyReference.cache" />
   </ItemGroup>
