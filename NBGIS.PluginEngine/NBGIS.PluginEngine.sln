@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBGIS.PluginEngine", "NBGIS.PluginEngine\NBGIS.PluginEngine.csproj", "{F81C9ED1-2DF9-43BF-AC9F-A54B86E4BD47}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F81C9ED1-2DF9-43BF-AC9F-A54B86E4BD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81C9ED1-2DF9-43BF-AC9F-A54B86E4BD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81C9ED1-2DF9-43BF-AC9F-A54B86E4BD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81C9ED1-2DF9-43BF-AC9F-A54B86E4BD47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
