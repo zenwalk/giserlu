@@ -29,71 +29,71 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel5 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
-            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel6 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
-            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel7 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
-            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel8 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
+            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel1 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
+            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel2 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
+            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel3 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
+            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel4 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainGIS));
             this.uiCommandManager1 = new Janus.Windows.UI.CommandBars.UICommandManager(this.components);
-            this.TopRebar1 = new Janus.Windows.UI.CommandBars.UIRebar();
-            this.LeftRebar1 = new Janus.Windows.UI.CommandBars.UIRebar();
-            this.RightRebar1 = new Janus.Windows.UI.CommandBars.UIRebar();
             this.BottomRebar1 = new Janus.Windows.UI.CommandBars.UIRebar();
             this.MainMenu = new Janus.Windows.UI.CommandBars.UICommandBar();
+            this.LeftRebar1 = new Janus.Windows.UI.CommandBars.UIRebar();
+            this.RightRebar1 = new Janus.Windows.UI.CommandBars.UIRebar();
+            this.TopRebar1 = new Janus.Windows.UI.CommandBars.UIRebar();
             this.uiStatusBar = new Janus.Windows.UI.StatusBar.UIStatusBar();
             this.uiPanelManager1 = new Janus.Windows.UI.Dock.UIPanelManager(this.components);
+            this.uiPanelGroup1 = new Janus.Windows.UI.Dock.UIPanelGroup();
             this.TOCPanel = new Janus.Windows.UI.Dock.UIPanelGroup();
             this.LayerPanel = new Janus.Windows.UI.Dock.UIPanel();
             this.uiPanel1Container = new Janus.Windows.UI.Dock.UIPanelInnerContainer();
+            this.axTOCControl1 = new ESRI.ArcGIS.Controls.AxTOCControl();
             this.PropertyPanel = new Janus.Windows.UI.Dock.UIPanel();
             this.PropertyPanelContainer = new Janus.Windows.UI.Dock.UIPanelInnerContainer();
+            this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
             this.DataPanel = new Janus.Windows.UI.Dock.UIPanel();
             this.DataPanelContainer = new Janus.Windows.UI.Dock.UIPanelInnerContainer();
-            this.uiPanelGroup1 = new Janus.Windows.UI.Dock.UIPanelGroup();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.MapContainer = new Janus.Windows.UI.Dock.UIPanel();
             this.MapContainerContainer = new Janus.Windows.UI.Dock.UIPanelInnerContainer();
             this.uiTab1 = new Janus.Windows.UI.Tab.UITab();
             this.maptab = new Janus.Windows.UI.Tab.UITabPage();
-            this.pageTab = new Janus.Windows.UI.Tab.UITabPage();
-            this.axMapControl = new ESRI.ArcGIS.Controls.AxMapControl();
-            this.axPageLayoutControl = new ESRI.ArcGIS.Controls.AxPageLayoutControl();
-            this.axTOCControl1 = new ESRI.ArcGIS.Controls.AxTOCControl();
             this.axLicenseControl1 = new ESRI.ArcGIS.Controls.AxLicenseControl();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
+            this.axMapControl = new ESRI.ArcGIS.Controls.AxMapControl();
+            this.pageTab = new Janus.Windows.UI.Tab.UITabPage();
+            this.axPageLayoutControl = new ESRI.ArcGIS.Controls.AxPageLayoutControl();
             ((System.ComponentModel.ISupportInitialize)(this.uiCommandManager1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TopRebar1)).BeginInit();
-            this.TopRebar1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.LeftRebar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.RightRebar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BottomRebar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainMenu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LeftRebar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RightRebar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TopRebar1)).BeginInit();
+            this.TopRebar1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uiPanelManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uiPanelGroup1)).BeginInit();
+            this.uiPanelGroup1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TOCPanel)).BeginInit();
             this.TOCPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LayerPanel)).BeginInit();
             this.LayerPanel.SuspendLayout();
             this.uiPanel1Container.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axTOCControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PropertyPanel)).BeginInit();
             this.PropertyPanel.SuspendLayout();
             this.PropertyPanelContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataPanel)).BeginInit();
             this.DataPanel.SuspendLayout();
             this.DataPanelContainer.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.uiPanelGroup1)).BeginInit();
-            this.uiPanelGroup1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MapContainer)).BeginInit();
             this.MapContainer.SuspendLayout();
             this.MapContainerContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uiTab1)).BeginInit();
             this.uiTab1.SuspendLayout();
             this.maptab.SuspendLayout();
-            this.pageTab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axMapControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axPageLayoutControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axTOCControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axMapControl)).BeginInit();
+            this.pageTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axPageLayoutControl)).BeginInit();
             this.SuspendLayout();
             // 
             // uiCommandManager1
@@ -106,33 +106,6 @@
             this.uiCommandManager1.LeftRebar = this.LeftRebar1;
             this.uiCommandManager1.RightRebar = this.RightRebar1;
             this.uiCommandManager1.TopRebar = this.TopRebar1;
-            // 
-            // TopRebar1
-            // 
-            this.TopRebar1.CommandBars.AddRange(new Janus.Windows.UI.CommandBars.UICommandBar[] {
-            this.MainMenu});
-            this.TopRebar1.CommandManager = this.uiCommandManager1;
-            this.TopRebar1.Controls.Add(this.MainMenu);
-            this.TopRebar1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TopRebar1.Location = new System.Drawing.Point(0, 0);
-            this.TopRebar1.Name = "TopRebar1";
-            this.TopRebar1.Size = new System.Drawing.Size(861, 26);
-            // 
-            // LeftRebar1
-            // 
-            this.LeftRebar1.CommandManager = this.uiCommandManager1;
-            this.LeftRebar1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.LeftRebar1.Location = new System.Drawing.Point(0, 26);
-            this.LeftRebar1.Name = "LeftRebar1";
-            this.LeftRebar1.Size = new System.Drawing.Size(0, 608);
-            // 
-            // RightRebar1
-            // 
-            this.RightRebar1.CommandManager = this.uiCommandManager1;
-            this.RightRebar1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.RightRebar1.Location = new System.Drawing.Point(861, 26);
-            this.RightRebar1.Name = "RightRebar1";
-            this.RightRebar1.Size = new System.Drawing.Size(0, 608);
             // 
             // BottomRebar1
             // 
@@ -153,29 +126,56 @@
             this.MainMenu.Text = "MainMeun";
             this.MainMenu.VisualStyle = Janus.Windows.UI.VisualStyle.Office2007;
             // 
+            // LeftRebar1
+            // 
+            this.LeftRebar1.CommandManager = this.uiCommandManager1;
+            this.LeftRebar1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.LeftRebar1.Location = new System.Drawing.Point(0, 26);
+            this.LeftRebar1.Name = "LeftRebar1";
+            this.LeftRebar1.Size = new System.Drawing.Size(0, 608);
+            // 
+            // RightRebar1
+            // 
+            this.RightRebar1.CommandManager = this.uiCommandManager1;
+            this.RightRebar1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.RightRebar1.Location = new System.Drawing.Point(861, 26);
+            this.RightRebar1.Name = "RightRebar1";
+            this.RightRebar1.Size = new System.Drawing.Size(0, 608);
+            // 
+            // TopRebar1
+            // 
+            this.TopRebar1.CommandBars.AddRange(new Janus.Windows.UI.CommandBars.UICommandBar[] {
+            this.MainMenu});
+            this.TopRebar1.CommandManager = this.uiCommandManager1;
+            this.TopRebar1.Controls.Add(this.MainMenu);
+            this.TopRebar1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.TopRebar1.Location = new System.Drawing.Point(0, 0);
+            this.TopRebar1.Name = "TopRebar1";
+            this.TopRebar1.Size = new System.Drawing.Size(861, 26);
+            // 
             // uiStatusBar
             // 
             this.uiStatusBar.Location = new System.Drawing.Point(0, 611);
             this.uiStatusBar.Name = "uiStatusBar";
-            uiStatusBarPanel5.BorderColor = System.Drawing.Color.Empty;
-            uiStatusBarPanel5.Key = "";
-            uiStatusBarPanel5.ProgressBarValue = 0;
-            uiStatusBarPanel6.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Spring;
-            uiStatusBarPanel6.BorderColor = System.Drawing.Color.Empty;
-            uiStatusBarPanel6.Key = "";
-            uiStatusBarPanel6.ProgressBarValue = 0;
-            uiStatusBarPanel6.Width = 534;
-            uiStatusBarPanel7.BorderColor = System.Drawing.Color.Empty;
-            uiStatusBarPanel7.Key = "";
-            uiStatusBarPanel7.ProgressBarValue = 0;
-            uiStatusBarPanel8.BorderColor = System.Drawing.Color.Empty;
-            uiStatusBarPanel8.Key = "";
-            uiStatusBarPanel8.ProgressBarValue = 0;
+            uiStatusBarPanel1.BorderColor = System.Drawing.Color.Empty;
+            uiStatusBarPanel1.Key = "";
+            uiStatusBarPanel1.ProgressBarValue = 0;
+            uiStatusBarPanel2.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Spring;
+            uiStatusBarPanel2.BorderColor = System.Drawing.Color.Empty;
+            uiStatusBarPanel2.Key = "";
+            uiStatusBarPanel2.ProgressBarValue = 0;
+            uiStatusBarPanel2.Width = 534;
+            uiStatusBarPanel3.BorderColor = System.Drawing.Color.Empty;
+            uiStatusBarPanel3.Key = "";
+            uiStatusBarPanel3.ProgressBarValue = 0;
+            uiStatusBarPanel4.BorderColor = System.Drawing.Color.Empty;
+            uiStatusBarPanel4.Key = "";
+            uiStatusBarPanel4.ProgressBarValue = 0;
             this.uiStatusBar.Panels.AddRange(new Janus.Windows.UI.StatusBar.UIStatusBarPanel[] {
-            uiStatusBarPanel5,
-            uiStatusBarPanel6,
-            uiStatusBarPanel7,
-            uiStatusBarPanel8});
+            uiStatusBarPanel1,
+            uiStatusBarPanel2,
+            uiStatusBarPanel3,
+            uiStatusBarPanel4});
             this.uiStatusBar.Size = new System.Drawing.Size(861, 23);
             this.uiStatusBar.TabIndex = 4;
             this.uiStatusBar.VisualStyle = Janus.Windows.UI.VisualStyle.Office2007;
@@ -208,14 +208,25 @@
             this.uiPanelManager1.AddDockPanelInfo(new System.Guid("bc680536-61db-4561-a394-7f916c3772da"), new System.Guid("d01c7d79-83c1-4077-b42a-546b18610d07"), 251, true);
             this.uiPanelManager1.AddDockPanelInfo(new System.Guid("41cc8056-c683-4965-8261-d2c366ead63e"), Janus.Windows.UI.Dock.PanelDockStyle.Fill, new System.Drawing.Size(655, 579), true);
             this.uiPanelManager1.AddFloatingPanelInfo(new System.Guid("bc680536-61db-4561-a394-7f916c3772da"), new System.Drawing.Point(281, 465), new System.Drawing.Size(200, 200), false);
+            this.uiPanelManager1.AddFloatingPanelInfo(new System.Guid("597af2bf-1b51-4800-be50-28e6a99209e7"), Janus.Windows.UI.Dock.PanelGroupStyle.Tab, true, new System.Drawing.Point(-1, -1), new System.Drawing.Size(-1, -1), false);
+            this.uiPanelManager1.AddFloatingPanelInfo(new System.Guid("44368b77-c199-4a25-9190-149c2f1e9e64"), new System.Drawing.Point(-1, -1), new System.Drawing.Size(-1, -1), false);
+            this.uiPanelManager1.AddFloatingPanelInfo(new System.Guid("ce5cd3d2-076a-4324-bda6-302020887921"), new System.Drawing.Point(-1, -1), new System.Drawing.Size(-1, -1), false);
+            this.uiPanelManager1.AddFloatingPanelInfo(new System.Guid("41cc8056-c683-4965-8261-d2c366ead63e"), new System.Drawing.Point(-1, -1), new System.Drawing.Size(-1, -1), false);
             this.uiPanelManager1.EndPanelInfo();
+            // 
+            // uiPanelGroup1
+            // 
+            this.uiPanelGroup1.Location = new System.Drawing.Point(3, 29);
+            this.uiPanelGroup1.Name = "uiPanelGroup1";
+            this.uiPanelGroup1.Size = new System.Drawing.Size(200, 579);
+            this.uiPanelGroup1.TabIndex = 9;
             // 
             // TOCPanel
             // 
             this.TOCPanel.GroupStyle = Janus.Windows.UI.Dock.PanelGroupStyle.Tab;
             this.TOCPanel.Location = new System.Drawing.Point(0, 0);
             this.TOCPanel.Name = "TOCPanel";
-            this.TOCPanel.SelectedPanel = this.PropertyPanel;
+            this.TOCPanel.SelectedPanel = this.LayerPanel;
             this.TOCPanel.Size = new System.Drawing.Size(196, 288);
             this.TOCPanel.TabIndex = 4;
             this.TOCPanel.Text = "地图信息";
@@ -237,6 +248,15 @@
             this.uiPanel1Container.Size = new System.Drawing.Size(194, 246);
             this.uiPanel1Container.TabIndex = 0;
             // 
+            // axTOCControl1
+            // 
+            this.axTOCControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.axTOCControl1.Location = new System.Drawing.Point(0, 0);
+            this.axTOCControl1.Name = "axTOCControl1";
+            this.axTOCControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axTOCControl1.OcxState")));
+            this.axTOCControl1.Size = new System.Drawing.Size(194, 246);
+            this.axTOCControl1.TabIndex = 0;
+            // 
             // PropertyPanel
             // 
             this.PropertyPanel.InnerContainer = this.PropertyPanelContainer;
@@ -253,6 +273,14 @@
             this.PropertyPanelContainer.Name = "PropertyPanelContainer";
             this.PropertyPanelContainer.Size = new System.Drawing.Size(194, 246);
             this.PropertyPanelContainer.TabIndex = 0;
+            // 
+            // propertyGrid1
+            // 
+            this.propertyGrid1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.propertyGrid1.Location = new System.Drawing.Point(0, 0);
+            this.propertyGrid1.Name = "propertyGrid1";
+            this.propertyGrid1.Size = new System.Drawing.Size(194, 246);
+            this.propertyGrid1.TabIndex = 0;
             // 
             // DataPanel
             // 
@@ -272,12 +300,16 @@
             this.DataPanelContainer.Size = new System.Drawing.Size(194, 263);
             this.DataPanelContainer.TabIndex = 0;
             // 
-            // uiPanelGroup1
+            // dataGridView1
             // 
-            this.uiPanelGroup1.Location = new System.Drawing.Point(3, 29);
-            this.uiPanelGroup1.Name = "uiPanelGroup1";
-            this.uiPanelGroup1.Size = new System.Drawing.Size(200, 579);
-            this.uiPanelGroup1.TabIndex = 9;
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(194, 263);
+            this.dataGridView1.TabIndex = 0;
             // 
             // MapContainer
             // 
@@ -319,14 +351,14 @@
             this.maptab.TabStop = true;
             this.maptab.Text = "地图";
             // 
-            // pageTab
+            // axLicenseControl1
             // 
-            this.pageTab.Controls.Add(this.axPageLayoutControl);
-            this.pageTab.Location = new System.Drawing.Point(1, 20);
-            this.pageTab.Name = "pageTab";
-            this.pageTab.Size = new System.Drawing.Size(651, 556);
-            this.pageTab.TabStop = true;
-            this.pageTab.Text = "制版";
+            this.axLicenseControl1.Enabled = true;
+            this.axLicenseControl1.Location = new System.Drawing.Point(17, 499);
+            this.axLicenseControl1.Name = "axLicenseControl1";
+            this.axLicenseControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axLicenseControl1.OcxState")));
+            this.axLicenseControl1.Size = new System.Drawing.Size(32, 32);
+            this.axLicenseControl1.TabIndex = 1;
             // 
             // axMapControl
             // 
@@ -337,6 +369,15 @@
             this.axMapControl.Size = new System.Drawing.Size(651, 556);
             this.axMapControl.TabIndex = 0;
             // 
+            // pageTab
+            // 
+            this.pageTab.Controls.Add(this.axPageLayoutControl);
+            this.pageTab.Location = new System.Drawing.Point(1, 20);
+            this.pageTab.Name = "pageTab";
+            this.pageTab.Size = new System.Drawing.Size(651, 556);
+            this.pageTab.TabStop = true;
+            this.pageTab.Text = "制版";
+            // 
             // axPageLayoutControl
             // 
             this.axPageLayoutControl.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -345,43 +386,6 @@
             this.axPageLayoutControl.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axPageLayoutControl.OcxState")));
             this.axPageLayoutControl.Size = new System.Drawing.Size(651, 556);
             this.axPageLayoutControl.TabIndex = 0;
-            // 
-            // axTOCControl1
-            // 
-            this.axTOCControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.axTOCControl1.Location = new System.Drawing.Point(0, 0);
-            this.axTOCControl1.Name = "axTOCControl1";
-            this.axTOCControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axTOCControl1.OcxState")));
-            this.axTOCControl1.Size = new System.Drawing.Size(194, 246);
-            this.axTOCControl1.TabIndex = 0;
-            // 
-            // axLicenseControl1
-            // 
-            this.axLicenseControl1.Enabled = true;
-            this.axLicenseControl1.Location = new System.Drawing.Point(17, 499);
-            this.axLicenseControl1.Name = "axLicenseControl1";
-            this.axLicenseControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axLicenseControl1.OcxState")));
-            this.axLicenseControl1.Size = new System.Drawing.Size(32, 32);
-            this.axLicenseControl1.TabIndex = 1;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(194, 263);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // propertyGrid1
-            // 
-            this.propertyGrid1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.propertyGrid1.Location = new System.Drawing.Point(0, 0);
-            this.propertyGrid1.Name = "propertyGrid1";
-            this.propertyGrid1.Size = new System.Drawing.Size(194, 246);
-            this.propertyGrid1.TabIndex = 0;
             // 
             // MainGIS
             // 
@@ -397,39 +401,40 @@
             this.Controls.Add(this.TopRebar1);
             this.Name = "MainGIS";
             this.Text = "MainGIS";
+            this.Load += new System.EventHandler(this.MainGIS_Load);
             ((System.ComponentModel.ISupportInitialize)(this.uiCommandManager1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TopRebar1)).EndInit();
-            this.TopRebar1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.LeftRebar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.RightRebar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BottomRebar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainMenu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LeftRebar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RightRebar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TopRebar1)).EndInit();
+            this.TopRebar1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.uiPanelManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uiPanelGroup1)).EndInit();
+            this.uiPanelGroup1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TOCPanel)).EndInit();
             this.TOCPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.LayerPanel)).EndInit();
             this.LayerPanel.ResumeLayout(false);
             this.uiPanel1Container.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.axTOCControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PropertyPanel)).EndInit();
             this.PropertyPanel.ResumeLayout(false);
             this.PropertyPanelContainer.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DataPanel)).EndInit();
             this.DataPanel.ResumeLayout(false);
             this.DataPanelContainer.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.uiPanelGroup1)).EndInit();
-            this.uiPanelGroup1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MapContainer)).EndInit();
             this.MapContainer.ResumeLayout(false);
             this.MapContainerContainer.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.uiTab1)).EndInit();
             this.uiTab1.ResumeLayout(false);
             this.maptab.ResumeLayout(false);
-            this.pageTab.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.axMapControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axPageLayoutControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axTOCControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axMapControl)).EndInit();
+            this.pageTab.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.axPageLayoutControl)).EndInit();
             this.ResumeLayout(false);
 
         }
