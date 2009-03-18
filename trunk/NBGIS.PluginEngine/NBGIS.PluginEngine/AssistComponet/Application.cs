@@ -32,11 +32,13 @@ namespace NBGIS.PluginEngine
         {
             get
             {
+                this._Caption = this._MainPlatform.Text;
                 return this._Caption;
             }
             set
             {
                 this._Caption = value;
+                this._MainPlatform.Text = this._Caption;
             }
         }
 
@@ -102,7 +104,11 @@ namespace NBGIS.PluginEngine
 
         public string Name
         {
-            get { return this._Name; }
+            get 
+            {
+                this._Name = this._MainPlatform.Name;
+                return this._Name; 
+            }
         }
 
         public Form MainPlatForm
@@ -133,11 +139,14 @@ namespace NBGIS.PluginEngine
         {
             get
             {
+                this._Visible = this._MainPlatform.Visible;
                 return this._Visible;
             }
             set
             {
+                
                 this._Visible = value;
+                this._MainPlatform.Visible = this._Visible;
             }
         }
 
