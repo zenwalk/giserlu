@@ -22,6 +22,13 @@ namespace NBGIS.MainGIS
         //当前使用的工具
         private NBGIS.PluginEngine.ITool _Tool = null;
 
+
+        private Dictionary<string, NBGIS.PluginEngine.ICommand> _CommandCol = null;
+        private Dictionary<string, NBGIS.PluginEngine.ITool> _ToolCol = null;
+        private Dictionary<string, NBGIS.PluginEngine.IToolBarDef> _ToolBarCol = null;
+        private Dictionary<string, NBGIS.PluginEngine.IMenuDef> _MenuItmeCol = null;
+        private Dictionary<string, NBGIS.PluginEngine.IDockableWindowDef> _DockableWindowCol = null;
+
         public MainGIS()
         {
             InitializeComponent();
@@ -45,7 +52,22 @@ namespace NBGIS.MainGIS
 
         private void MainGIS_Load(object sender, EventArgs e)
         {
-            this._Application.Caption = "t";
+           //从插件文件夹中获得实现了插件接口的对象
+            PluginCollection pluginCol = PluginHandle.GetPluginsFormDll();
+           //解析这些插件对象，获得不同类型的插件集合
+            ParsePluginCollection parsePluginCol = new ParsePluginCollection();
+            parsePluginCol.GetPluginArray(pluginCol);
+            this._CommandCol = parsePluginCol.GetCommands;
+            this._ToolCol = parsePluginCol.GetTools;
+            this._ToolBarCol = parsePluginCol.GetToolBars;
+            this._MenuItmeCol = parsePluginCol.GetMenus;
+            this._DockableWindowCol = parsePluginCol.GetDockableWindows;
+
+            //获得Command和Tool在UI层上的Category属性
+            foreach (string categoryName in parsePluginCol.GetCommandCategory)
+            {
+                this.uiCommandManager1.Categories.Add(new Janus.Windows.UI.CommandBars.UICommandCategory(categoryName));
+            }
         }
     }
 }
