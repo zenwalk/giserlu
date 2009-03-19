@@ -50,17 +50,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application.cs" />
+    <Compile Include="AssistComponet\Application.cs" />
     <Compile Include="Applog.cs" />
-    <Compile Include="IApplication.cs" />
-    <Compile Include="ICommand.cs" />
-    <Compile Include="IDockableWindowDef.cs" />
-    <Compile Include="IItemDef.cs" />
-    <Compile Include="IMenuDef.cs" />
-    <Compile Include="IPlugin.cs" />
-    <Compile Include="ItemDef.cs" />
-    <Compile Include="ITool.cs" />
-    <Compile Include="IToolBarDef.cs" />
+    <Compile Include="AssistComponet\IApplication.cs" />
+    <Compile Include="PluginInterface\ICommand.cs" />
+    <Compile Include="PluginInterface\IDockableWindowDef.cs" />
+    <Compile Include="AssistComponet\IItemDef.cs" />
+    <Compile Include="PluginInterface\IMenuDef.cs" />
+    <Compile Include="PluginInterface\IPlugin.cs" />
+    <Compile Include="AssistComponet\ItemDef.cs" />
+    <Compile Include="PluginInterface\ITool.cs" />
+    <Compile Include="PluginInterface\IToolBarDef.cs" />
     <Compile Include="ParsePluginCollection.cs" />
     <Compile Include="PluginCollection.cs" />
     <Compile Include="PluginCollectionEnumerator.cs" />
@@ -68,26 +68,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\Janus.Windows.Common.v3.dll" />
-    <Content Include="bin\Debug\Janus.Windows.Ribbon.v3.dll" />
-    <Content Include="bin\Debug\Janus.Windows.Ribbon.v3.xml" />
-    <Content Include="bin\Debug\Janus.Windows.UI.v3.dll" />
-    <Content Include="bin\Debug\Janus.Windows.UI.v3.xml" />
-    <Content Include="bin\Debug\log4net.dll" />
-    <Content Include="bin\Debug\NBGIS.PluginEngine.dll" />
-    <Content Include="bin\Debug\NBGIS.PluginEngine.pdb" />
-    <Content Include="obj\Debug\NBGIS.PluginEngine.dll" />
-    <Content Include="obj\Debug\NBGIS.PluginEngine.pdb" />
-    <Content Include="obj\NBGIS.PluginEngine.csproj.FileList.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
-    <None Include="obj\Debug\build.force" />
-    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="obj\Debug\Refactor\" />
-    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

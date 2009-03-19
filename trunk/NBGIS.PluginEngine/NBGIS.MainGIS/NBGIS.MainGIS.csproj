@@ -41,6 +41,10 @@
     <Reference Include="Janus.Windows.Common.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" />
     <Reference Include="Janus.Windows.Ribbon.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
     <Reference Include="Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="NBGIS.PluginEngine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\NBGIS.PluginEngine\bin\Debug\NBGIS.PluginEngine.dll</HintPath>
+    </Reference>
     <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -63,8 +67,6 @@
       <SubType>Designer</SubType>
       <DependentUpon>MainGIS.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="obj\Debug\NBGIS.MainGIS.MainGIS.resources" />
-    <EmbeddedResource Include="obj\Debug\NBGIS.MainGIS.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -75,9 +77,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="obj\Debug\build.force" />
-    <None Include="obj\Debug\NBGIS.MainGIS.csproj.GenerateResource.Cache" />
-    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -87,24 +86,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="bin\Debug\Janus.Windows.Common.v3.dll" />
-    <Content Include="bin\Debug\Janus.Windows.Ribbon.v3.dll" />
-    <Content Include="bin\Debug\Janus.Windows.Ribbon.v3.xml" />
-    <Content Include="bin\Debug\Janus.Windows.UI.v3.dll" />
-    <Content Include="bin\Debug\Janus.Windows.UI.v3.xml" />
-    <Content Include="bin\Debug\NBGIS.MainGIS.exe" />
-    <Content Include="bin\Debug\NBGIS.MainGIS.pdb" />
-    <Content Include="bin\Debug\NBGIS.MainGIS.vshost.exe" />
-    <Content Include="obj\Debug\NBGIS.MainGIS.exe" />
-    <Content Include="obj\Debug\nbgis.maingis.exe.licenses" />
-    <Content Include="obj\Debug\NBGIS.MainGIS.pdb" />
-    <Content Include="obj\NBGIS.MainGIS.csproj.FileList.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="obj\Debug\Refactor\" />
-    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
