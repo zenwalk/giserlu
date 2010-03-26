@@ -84,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ControlsSynchronizer.cs" />
+    <Compile Include="LayerInfo.cs" />
     <Compile Include="MainGIS.cs">
       <SubType>Form</SubType>
     </Compile>
