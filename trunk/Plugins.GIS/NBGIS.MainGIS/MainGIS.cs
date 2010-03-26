@@ -659,13 +659,16 @@ namespace NBGIS.MainGIS
             //选中的是Map
             if (pTOCControlItem == ESRI.ArcGIS.Controls.esriTOCControlItem.esriTOCControlItemMap)
             {
+                
                 MapInfo pMapInfo = new MapInfo(m_MapControl.Map);
                 propertyGrid1.SelectedObject = pMapInfo;
             }
             //layer
             if (pTOCControlItem == ESRI.ArcGIS.Controls.esriTOCControlItem.esriTOCControlItemLayer)
             {
-                MessageBox.Show("Selected Layer");
+                LayerInfo pLayerInfo = new LayerInfo(pLayer);
+                propertyGrid1.SelectedObject = pLayerInfo;
+               
             }
             //Heading
             if (pTOCControlItem == ESRI.ArcGIS.Controls.esriTOCControlItem.esriTOCControlItemHeading)
